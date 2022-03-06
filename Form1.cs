@@ -23,6 +23,7 @@ namespace Sierpinski_triangle
             InitializeComponent();
             g = image.CreateGraphics();
             triangle = new Sierpinski(A, B, C, 1);
+            triangle.Draw(g, triangleColor.Color);
         }
 
         private void Reset()
