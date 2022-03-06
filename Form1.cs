@@ -17,7 +17,7 @@ namespace Sierpinski_triangle
         private int trianglesDrawn = 0;
         private PointF A = new PointF(100,400);
         private PointF B = new PointF(400,400);
-        private PointF C = new PointF(250, 100);
+        private PointF C = new PointF(250, 140.192379f);
         public form()
         {
             InitializeComponent();
